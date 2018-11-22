@@ -9,6 +9,7 @@
   "author": "Michael Checo <checomichael2@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.4",
     "graphql-yoga": "^1.16.7"
   }
 }
