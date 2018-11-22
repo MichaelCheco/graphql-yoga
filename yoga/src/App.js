@@ -18,7 +18,9 @@ class App extends Component {
          <h1><code>Yoga Postures</code></h1>
          <div>
            <ul>
-             
+             {this.props.data.yogaPostures && this.props.data.yogaPostures.map(posture => (
+               <li key={posture.name}><Posture name={posture.name} /></li>
+             ))}
            </ul>
          </div>
        </header>
